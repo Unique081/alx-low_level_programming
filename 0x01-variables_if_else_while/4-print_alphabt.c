@@ -11,7 +11,7 @@ int main(void)
 {
 	char letter;
 	/* Loop through the alphabet */
-	for (letter = 'a'; letter <= 'z'; letter++)
+		for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		/* Check if the letter is not 'q' or 'e' */
 			if (letter != 'q' && letter != 'e')
