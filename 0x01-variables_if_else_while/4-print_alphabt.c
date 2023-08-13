@@ -14,7 +14,7 @@ int main(void)
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		/* Check if the letter is not 'q' or 'e' */
-		if (letter != 'q' && letter != 'e')
+			if (letter != 'q' && letter != 'e')
 		{
 			/* Print the current letter */
 				putchar(letter);
