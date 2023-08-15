@@ -1,17 +1,16 @@
-#include <unistd.h>
+#include <stdio.h>
+
 /**
- * main - Entry point
- * Description: Prints all single digit numbers of base 10
- * starting from 0, followed by a new line.
+ * main - prints all single digit numbers of base
+ * 10 starting from 0, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int digit = 0;
-	while (digit < 10)
-		char c = digit + '0';
-	write(1, &c, 1);
-	digit++;
+	int n;
+
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
+	return (0);
 }
-write(1, "\n", 1);
-return (0);
