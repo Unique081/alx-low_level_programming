@@ -1,0 +1,1 @@
+define new type of structure dog, function that initialize variable of type structure dog, funtion that prints structure dog, define a new name dog_t of type structure dog, function that creates a new dog, function that frees dog.
